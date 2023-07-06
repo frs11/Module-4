@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Forms</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 15px;
+            /* justify-content: space-around; */
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    
+    <main>
+        <article>
+            <section>
+                <div>
+                    <h2>Please fill up the form</h2>
+                    <form>
+
+                        <label for="name">Your Name
+                            <input placeholder="Your Name" type="text" name="" id="name">
+                        </label>
+
+                        <label for="ID">Your ID
+                            <input placeholder="Your ID" type="number" name="" id="ID">
+                        </label>
+
+                        <label for="mail">Your E_mail
+                            <input placeholder="Your E-mail" type="email" name="" id="mail">
+                        </label>
+                        
+                        <label for="age">Your Age
+                            <input placeholder="Your Age" type="number" name="" id="age">
+                        </label>
+
+                        <label for="phone">Your Phone Number
+                            <input placeholder="Your Phone Number" type="number" name="" id="phone">
+                        </label>
+
+                        <h3>Now Choose Your Desired Books. You can choose only one Book.</h3>
+
+                        <fieldset>
+                            <legend>Available Books</legend>
+
+                            <label for="JavaScript">
+                                <input type="radio" name="books" id="JavaScript">JavaScript
+                            </label>
+
+                            <label for="Python">
+                                <input type="radio" name="books" id="Python">Python
+                            </label>
+
+                            <label for="html">
+                                <input type="radio" name="books" id="html">HTML
+                            </label>
+
+                            <label for="css">
+                                <input type="radio" name="books" id="css">CSS Guide
+                            </label>
+                            
+
+                            <h4>You can Choose these as extras</h4>
+
+                            <label for="algorithm">
+                                <input type="checkbox" name="books" id="algorithm">Algorithm
+                            </label>
+
+                            <label for="data-structure">
+                                <input type="checkbox" name="books" id="data-structure">Data Structure
+                            </label>
+
+                            <label for="ai">
+                                <input type="checkbox" name="books" id="ai">Artificial Intelligence
+                            </label>
+
+                            <h3>You can also search other books here</h3>
+                            <label for="searching">
+                                <input placeholder="Write Books Name" type="search" name="search" id="searching"> <button>search</button>
+                            </label>
+                            
+
+                        </fieldset>
+                        <br><br><br>
+
+                        
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
+            </section>
+        </article>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
